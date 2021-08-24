@@ -47,6 +47,7 @@ JS파일과 CSS파일은 HTML에 Import 시켜 표현 해야함 !
 
 2009년, Node.js가 등장하면서 자바스크립트의 영역을 서버사이드로 더욱 넓힐 수 있게 되었습니다. Node.js의 장점은 친숙한 언어로 프로그래밍을 할 수 있다는 것입니다. 클라이언트에서만 자바스크립트를 쓰는 것이 아니라, 서버에서도 같은 언어로 구현할 수 있기 때문에 프론트엔드와 백엔드를 둘 다 같이 개발할 수 있는 풀스택 개발자들이 증가하게 되었음.
 
+## English
 In 1995, the web browser market was dominated by Netscape Corporation and its navigator. However, the early web was an HTML page with unchanged static characters, and Netscape hired Brendan Erich to develop a more interactive website that moved to HTML pages through light programming language. He completed the language in 10 days.
 
 In 1999, the XMLHttpRequest API introduced in IE5 came out, requesting client-side scripts to servers in http or https, and enabling them to receive data in text format.
