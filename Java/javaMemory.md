@@ -22,7 +22,6 @@ String favoriteFood = "Emmental";
 <b><u>money</u></b> 와 <b><u> height</u></b> 변수는 stack area에 직접 저장이 되고 있지만 String 클래스의 변수인 <b><u>nickName</u></b>과 <b><u>favoriteFood</u></b> 은 stack area에서는 객체 주소값을 가지고 있다.
 <b><u></u></b><br>
 
-[출처 이것이 자바다](https://www.hanbit.co.kr/store/books/look.php?p_code=B1460673937)
 
 ## 메모리 사용 영역
 
@@ -203,4 +202,6 @@ Week today= Week.SUNDAY;
 //이런식으로 변수를 적용하고 사용해야함즉 today와 메소드 영역에 있는 Sunday는 같은 참조 값을 가지게 된다.
 ```
 <br>
+
+[출처 이것이 자바다](https://www.hanbit.co.kr/store/books/look.php?p_code=B1460673937)
 
