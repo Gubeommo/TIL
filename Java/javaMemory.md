@@ -203,5 +203,38 @@ Week today= Week.SUNDAY;
 ```
 <br>
 
+열거 객체의 매소드는 힙 영역에 있으므로 열거 객체를 불러올때는
+
+리턴| 타입 매소드(매개변수) |설명|
+|--|----|---|
+String| name() | 열거 객체의 문자열을 리턴
+int | ordinal() | 열거 객체의 순번을 리턴(몇번째인지)
+int | compareTo() | 열거 객체를 비교해서 순번 차이를 리턴
+열거 타입 | valueOf(String name) | 주어진 문자열의 열거 객체를 리턴
+열거 배열 | values() | 모든 열거 객체들을 배열로 리턴
+
+
+### LocalDate
+
+```java
+LocalDate currentDate = LocalDate,now() // 로컬 컴퓨터의 현재 날짜 정보를 저장한 Lodcal Date 객체를 리턴
+LocalDate targetDate = LocalDate.of(2021,11,12)
+// 특정 날짜를 파라미터로 주어진 날짜 정보를 저장한 로컬 데이터를 리턴 result : 2021-12-12
+LocalTime currentTime = LocalTime.now();
+// 로컬 컴퓨터의 현재 시간 정보를 저장한 LocalDate 객체를 리턴
+LocalTime targetTime = LocalTime.of(10,22,33,12);
+// 끝에 4번째 매개변수는 nano Second인데 선택 값으로 굳이 쓰지 않아도된다. 결과 (10:22:33:0000012)
+
+LocalDateTime currentDateTime = LocalDateTime.now();
+//로컬 컴퓨터에 현재 날짜와 시간 정보
+
+LocalDateTime targetDateTime = LocalDateTime.of(2021,11,12,12,33,22);
+//결과 2021-12-12T12:12:33
+
+
+```
+
+
 [출처 이것이 자바다](https://www.hanbit.co.kr/store/books/look.php?p_code=B1460673937)
 
+[LocalTime 부분출처 .java의 개발일기](https://java119.tistory.com/52)
