@@ -10,7 +10,7 @@
 
 <u><b>요약 : Gradle이 Maven 보다 빨라 요즘 많은 개발자들이 선호한다.</b></u>
 
-
+Gradle 사용하자..
 
 
 Dependencies   = 라이브러리 함께할것들
